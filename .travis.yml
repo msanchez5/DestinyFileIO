@@ -5,13 +5,10 @@ language: python
 # 3. These are the various versions of python we want to test against
 python:
  - "2.7"
- - "3.4"
- - "3.5"
- - "3.6"
 # command to install dependencies
 install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - cd example/    
+  - cd example/
   - python test.py

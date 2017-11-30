@@ -14,5 +14,4 @@ install:
   - pip install pycodestyle
 # command to run tests
 script:
-  - pycodestyle --ignore=E501,E266,E302,W292 .
   - python test.py

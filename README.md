@@ -6,13 +6,18 @@ Project DestinyFileIO is a small file extrating information.
 
 To get a local copy of the current code, clone it using git:
 ```
-$ git clone git://github.com/msanchez5/
-$ cd filename
+$ git clone git@github.com:msanchez5/DestinyFileIO.git
+$ cd DestinyFileIO/Python
 $ run file...
 ```
 
 ## Contributing
 Feel free to contribute into this project and always looking at the issues to see what needs to be done.
+Special thank you for the following contributors:
+| Name | Github Account |
+| ------ | ------ |
+| Marvin S | [msanchez5](http://github.com/msanchez5) |
+
 ## Functionality
 The following table is a collection of funtionality that can be used  to accomplish a set of tasks.
 

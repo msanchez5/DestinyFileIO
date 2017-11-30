@@ -1,6 +1,6 @@
 # Project DestinyFileIO
 
-Project DestinyFileIO is a small file extracting information.
+Project DestinyFileIO is a small file extracting information. 
 
 ## Getting Started
 

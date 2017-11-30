@@ -8,7 +8,7 @@ To get a local copy of the current code, clone it using git:
 ```
 $ git clone git@github.com:msanchez5/DestinyFileIO.git
 $ cd DestinyFileIO/Python
-$ run file...
+$ run python DestinyFileIO.py
 ```
 
 ## Contributing

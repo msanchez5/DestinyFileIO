@@ -14,6 +14,7 @@ $ run file...
 ## Contributing
 Feel free to contribute into this project and always looking at the issues to see what needs to be done.
 Special thank you for the following contributors:
+
 | Name | Github Account |
 | ------ | ------ |
 | Marvin S | [msanchez5](http://github.com/msanchez5) |

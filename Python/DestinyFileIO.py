@@ -1,6 +1,7 @@
 # File path manipulation
 import os
-
+import hashlib
+print("Welcome to DestinyFileIO")
 # This takes a filepath (fp) and returns a basename file name "mydata.txt"
 fp = "/home/kim/mydata.txt"
 def getFilePathName(path):

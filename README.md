@@ -1,6 +1,7 @@
 # Project DestinyFileIO
+Travis CI Status:  [![BuildStatus](https://travis-ci.org/msanchez5/DestinyFileIO.svg?branch=master)](https://travis-ci.org/msanchez5/DestinyFileIO)
 
-Project DestinyFileIO is a small file extracting information. 
+Project DestinyFileIO is a small file extracting information.
 
 ## Getting Started
 

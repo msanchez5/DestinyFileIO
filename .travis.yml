@@ -11,6 +11,8 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install pycodestyle
 # command to run tests
 script:
-  - pytest # or py.test for Python versions 3.5 and below
+  - pycodestyle --ignore=E501,E266,E302,W292 .
+  - python test.py

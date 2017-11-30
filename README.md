@@ -24,10 +24,10 @@ The following table is a collection of funtionality that can be used  to accompl
 
 | Function Name | Description | Input | Expected Output
 | ----- | ----- | ----- | ----- |
-| test1 | Filename with out the path | /home/kim/mydata.txt | mydata.txt |
-| test1 | File size in bytes | /home/kim/mydata.txt | 129 Kb |
-| test1 | Sha1 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12 |
-| test1 | MD5 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 9e107d9d372bb6826bd81d3542a419d |
+| getFilePathName( path ) | Filename with out the path | /home/kim/mydata.txt | mydata.txt |
+| getFileSize( path ) | File size in bytes | /home/kim/mydata.txt | 129 Kb |
+| convertSHA( path ) | Sha1 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12 |
+| convertMD5( path ) | MD5 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 9e107d9d372bb6826bd81d3542a419d |
 
 ## License
 MIT

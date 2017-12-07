@@ -19,7 +19,7 @@ $ run python test.py
 ## Contribution
 Feel free to contribute into this project and keep looking at the issues list.
 
-Have an idea? Found a bug? See [Contribution page](docs/CONTRIBUTIN.md).
+Have an idea? Found a bug? See [Contribution page](docs/CONTRIBUTING.md).
 
 ## Documentation
 The following table are collection of functionality that needs to be implemented.

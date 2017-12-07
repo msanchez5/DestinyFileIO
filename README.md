@@ -4,6 +4,12 @@ Travis CI Status:  [![BuildStatus](https://travis-ci.org/msanchez5/DestinyFileIO
 
 Project DestinyFileIO is a small file extracting information.
 
+## TABLE OF CONTENT
+* [Contribution page](docs/CONTRIBUTING.md).
+* [Code of Conduct page](docs/CODE-OF-CONDUCT.md)
+* [Destiny File IO](example/DestinyFileIO.py)
+* [Tester](example/test.py)
+
 ## Getting Started
 Make sure you clone the DestinyFileIO repo:
 ```
@@ -24,6 +30,11 @@ Have an idea? Found a bug? See [Contribution page](docs/CONTRIBUTING.md).
 ## Documentation
 The following table are collection of functionality that needs to be implemented.
 
+#### Params
+
+- **String** `path`: The path to the file you want.
+
+
 | Function Name | Description | Input | Expected Output
 | ----- | ----- | ----- | ----- |
 | `getFilePathName(path)` | Filename with out the path | `/home/marvins/mydata.txt` | `mydata.txt` |
@@ -31,9 +42,16 @@ The following table are collection of functionality that needs to be implemented
 | `convertSHA(path)` | SHA1 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12 |
 | `convertMD5(path)` | MD5 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 9e107d9d372bb6826bd81d3542a419d |
 
-#### Params
+#### Example
+```python
+# The variable Path is the desired URL
+path = getFilePathName('example/mydata.txt'):
 
-- **String** `path`: The path to the file you want.
+# Return value on Path variable is 'mydate.txt'
+print path
+```
 
 ## License
-[MIT](docs/LICENSE.md) © [Marvin Sanchez](http://marvinrsanchez.wordpress.com/)
+This project is licensed under the [MIT](docs/LICENSE.md) License.
+
+[Marvin Sanchez](http://marvinrsanchez.wordpress.com/)

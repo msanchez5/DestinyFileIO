@@ -34,7 +34,6 @@ The following table are collection of functionality that needs to be implemented
 
 - **String** `path`: The path to the file you want.
 
-
 | Function Name | Description | Input | Expected Output
 | ----- | ----- | ----- | ----- |
 | `getFilePathName(path)` | Filename with out the path | `/home/marvins/mydata.txt` | `mydata.txt` |
@@ -50,7 +49,6 @@ path = getFilePathName('example/mydata.txt'):
 # Return value on Path variable is 'mydate.txt'
 print path
 ```
-
 ## License
 This project is licensed under the [MIT](docs/LICENSE.md) License.
 

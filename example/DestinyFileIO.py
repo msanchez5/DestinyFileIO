@@ -3,16 +3,17 @@ import os
 import hashlib
 
 # This takes a filepath (fp) and returns a basename file name "mydata.txt"
-path = "./example/mydata.txt"
-def getFilePathName(path):
+#path = "./example/mydata.txt"
+
+def get_file_path_name(path):
     path = os.path.basename(path)
     return path
 
 # This takes a filepath (fp) and returns a file size in bytes
-def getFileSize(path):
-    path = getFilePathName(path)
-    file = os.path.getsize(path)
-    return file
+def get_file_size(path):
+    path = get_file_path_name(path)
+    size = os.path.getsize(path)
+    return size
 
 # This returns SHA1 digest for a file at the given getFilePathName
 #def convertSHA(path):
@@ -25,5 +26,5 @@ def getFileSize(path):
 
 # print("Testing cases:")
 # print getFilePathName(path)
-print getFileSize(path)
+# print getFileSize(path)
 # print convertMD5()

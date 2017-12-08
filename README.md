@@ -16,19 +16,19 @@ Make sure you clone the DestinyFileIO repo:
 $ git clone https://github.com/msanchez5/DestinyFileIO.git
 
 ```
-After cloning the repo, here are some commands you need to do to run the tester.
+After cloning the repo, execute the following commands to run the tester.
 ```
 $ cd DestinyFileIO/example
 $ run python test.py
 ```
 
 ## Contribution
-Feel free to contribute into this project and keep looking at the issues list.
+Feel free to contribute to this project and keep looking at the issues list.
 
 Have an idea? Found a bug? See [Contribution page](docs/CONTRIBUTING.md).
 
 ## Documentation
-The following table are collection of functionality that needs to be implemented.
+The following table is a collection of functionalities that need to be implemented.
 
 #### Params
 
@@ -36,20 +36,20 @@ The following table are collection of functionality that needs to be implemented
 
 | Function Name | Description | Input | Expected Output
 | ----- | ----- | ----- | ----- |
-| `getFilePathName(path)` | Filename with out the path | `/home/marvins/mydata.txt` | `mydata.txt` |
+| `getFilePathName(path)` | Filename without the path | `/home/marvins/mydata.txt` | `mydata.txt` |
 | `getFileSize(path)` | File size in bytes | `/home/marvins/mydata.txt` | 129 Kb |
 | `convertSHA(path)` | SHA1 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12 |
 | `convertMD5(path)` | MD5 digest for a file at the given path | The quick brown fox jumps over the lazy dog | 9e107d9d372bb6826bd81d3542a419d |
 
 #### Example
 ```python
-# The variable Path is the desired URL
+# The variable path is the desired URL
 path = getFilePathName('example/mydata.txt'):
 
-# Return value on Path variable is 'mydate.txt'
+# Return value on path variable is 'mydate.txt'
 print path
 ```
 ## License
-This project is licensed under the [MIT](docs/LICENSE.md) License.
+This project is licensed under the [MIT](docs/LICENSE.md) license.
 
 [Marvin Sanchez](http://marvinrsanchez.wordpress.com/)

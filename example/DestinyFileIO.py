@@ -19,10 +19,12 @@ def get_file_size(path):
 def convertSHA(path):
     f = open(path, 'r')
     str = f.read()
+    str = str.strip( )
     str = str.encode('utf-8')
     f.close()
     sha = hashlib.sha1(str).hexdigest()
     return sha
+	
 
 # This returns MD5 digest for a file at the given getFilePathName
 # def convertMD5():

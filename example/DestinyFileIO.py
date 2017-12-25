@@ -24,7 +24,6 @@ def convertSHA(path):
     f.close()
     sha = hashlib.sha1(str).hexdigest()
     return sha
-	
 
 # This returns MD5 digest for a file at the given getFilePathName
 # def convertMD5():

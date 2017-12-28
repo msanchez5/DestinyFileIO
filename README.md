@@ -34,6 +34,15 @@ Feel free to contribute to this project and keep looking at the issues list.
 
 Have an idea? Found a bug? See [Contribution page](docs/CONTRIBUTING.md).
 
+| Label Name | Description |
+| ----- | ----- |
+| `good first issue` | Less complex issues which would be good first issues to work on |
+| `questions` | Questions rather than bugs (ie. What should I do?)|
+| `help-wanted` | Your help would be appreciated |
+| `on-going` | It is being worked on right now |
+| `assigned` | The bug is assigned to somebody |
+| `needs review` | The issue is under review by the maintainers |
+
 ## Documentation
 
 The following table is a collection of functionalities that need to be implemented.
